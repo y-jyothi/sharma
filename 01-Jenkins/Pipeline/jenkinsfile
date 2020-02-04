@@ -41,7 +41,7 @@ node {
         def server= Artifactory.server 'ARTIFACTORY'
                     def uploadSpec= """{
                         "files": [{
-                        "pattern": "/target/*.war",
+                        "pattern": "target/*.war",
                         "target": "example-repo-local"}]
                     }"""
         server.upload(uploadSpec)
