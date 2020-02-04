@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "jyothi"
+  default = "petclinic"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/hkey.pem"
+  default = "/root/.ssh/petclinic.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-0f466aa9b1c29b799"
+  default = "sg-0c6adefc955ce1691"
 }
