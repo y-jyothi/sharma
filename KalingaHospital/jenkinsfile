@@ -7,7 +7,7 @@ node {
    git 'https://github.com/y-jyothi/sharma.git'
   }
     
- def project_path="sharma/KalingaHospital/"
+ def project_path="KalingaHospital/"
  
  dir(project_path) {
     
