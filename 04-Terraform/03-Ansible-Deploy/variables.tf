@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "petclinic"
+  default = "hospital"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/petclinic.pem"
+  default = "/root/.ssh/hospital.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-0c6adefc955ce1691"
+  default = "sg-0a8263b9bf1690a1f"
 }
